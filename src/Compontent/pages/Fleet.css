@@ -1,0 +1,273 @@
+.fleet .grid{
+    grid-template-columns: 1fr;
+}
+.fleet-item .fa-bus{
+    margin-left: 40%;
+}
+.fleet-item h2{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+.fleet-item span{
+  color:var(--primary-color)  
+}
+.fleet-item p{
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+  }
+.fleet-item button{
+    margin: 0 25%;
+}
+.fleet-item-2 svg{
+    width: 108%;
+    height: 100%; 
+}
+.fleet-img img{
+    position: absolute;
+    top: 65%;
+    width: 110%;
+    left: -10%;
+    height: 50vh;
+    opacity: 0.9;
+}
+.fleet-item-2{
+    margin-top: 40px; 
+}
+.fleet-img-2 img{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    width: 80%;
+    height: 45vh; 
+}
+@media(min-width:776px){
+    .fleet .grid{
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .fleet-item .fa-bus{
+        margin-left: 1%;
+    }
+    .fleet-item h2{
+        text-align: left;
+        margin: 1rem 0;
+        font-size: 2rem;
+    }
+    .fleet-item p{
+        text-align: left;
+        letter-spacing: 1px;
+        margin: 1rem 0;
+      }
+    .fleet-item button{
+        margin: 0 -1%;
+}
+.fleet-img img{
+    position: absolute;
+    top: 35%;
+    width: 60%;
+    left: 40%;
+    height: 62vh;
+    opacity: 0.9;
+}
+.fleet-item{
+    margin-top: 10rem; 
+}
+.fleet-item-2{
+    margin-top: -1rem; 
+}
+.fleet-img-2 img{
+    position: absolute;
+    top: 25%;
+    left: 51%;
+    width: 40%;
+    height: 85vh;
+}
+}
+@media(max-width:450px){
+    .fleet-item button{
+        margin: 0 10%;
+}
+.fleet-img img{
+    position: absolute;
+    top: 65%;
+    width: 110%;
+    left: -10%;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+    height: 35vh;
+    opacity: 0.9;
+}
+}
+/* section two */
+.fleet-fr{
+    margin: 10rem 0;
+}
+.frames-fleet:nth-child(2){
+    order: -1;
+}
+.fa-desktop{
+    margin-left: 40%;
+}
+.frames-fleet h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.frames-fleet span{
+  color: var(--primary-color);  
+}
+.frames-fleet p{
+    text-align: center;
+    letter-spacing: 1px;
+  }
+.trav{
+margin: 2rem 2rem; 
+}
+.frames-fleet a{
+   color: #000;
+  }
+.imag-1 img{
+width: 100%;
+height: 55vh;
+opacity: 0.3;
+}
+.frames-fleet{
+    position: relative;
+}
+.imag img{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 45vh;
+}
+@media(min-width:776px){
+    .fleet-fr{
+        margin: 5rem 0;
+    }
+    .frames-fleet:nth-child(2){
+        order: 1;
+    } 
+.frames-fleet{
+    margin-top: 45%;
+} 
+.imag img{
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    height: 45vh;
+}
+.fa-desktop{
+    margin-left: 1%;
+}
+.frames-fleet h2{
+    font-size: 2rem;
+    text-align:left;
+    margin: 1rem 0;
+}
+.frames-fleet p{
+    text-align: left;
+    letter-spacing: 1px;
+  }
+
+}
+@media(max-width:450px){
+.frames-fleet a{
+    color: #000;
+    padding: 10px;
+    } 
+    .imag-1 img{
+        width: 100%;
+        height: 45vh;
+        opacity: 0.3;
+        }
+.imag img{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 35vh;
+}  
+}
+/* section three */
+.fleet-panel{
+    margin: 60px 0;
+}
+.fa-wallet{
+    margin-left: 40%;
+}
+.fleet-pan h2{
+font-size: 2rem;
+text-align: center;
+margin: 1rem 0;
+}
+.fleet-pan span{
+color:var(--primary-color) ;
+}
+.fleet-pan p{
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+}
+.fleet-pan a{
+    color: #000;
+    padding: 5px;
+}
+.fleet-pan{
+    position: relative;
+}
+.pan img{
+    width: 100%;
+    height: 55vh;
+    opacity: 0.3;  
+}
+.pan-1 img{
+position: absolute;
+top: 15%;
+left: 10%;
+width: 80%;
+height: 35vh;   
+}
+@media(min-width:776px){
+    .fleet-panel{
+        margin-top: 12rem;
+    }  
+.fa-wallet{
+    margin-left: 1%;
+}
+.fleet-pan h2{
+    font-size: 2rem;
+    text-align: left;
+    margin: 1rem 0;
+    }
+.fleet-pan p{
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+}
+.pan img{
+    width: 100%;
+    height: 55vh;
+    opacity: 0.3;  
+}
+.pan-1 img{
+position: absolute;
+top: 10%;
+left: 10%;
+width: 80%;
+height: 45vh;   
+}
+}
+@media(max-width:450px){
+.pan img{
+    width: 100%;
+    height:45vh;
+    opacity: 0.3;  
+}
+.pan-1 img{
+position: absolute;
+top: 10%;
+left: 10%;
+width: 80%;
+height: 35vh;   
+}    
+}

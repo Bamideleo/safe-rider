@@ -1,0 +1,143 @@
+.delivery{
+    margin: 5rem 0;
+}
+.delivery .grid{
+    grid-template-columns: 1fr;
+}
+.sub-delivery-1 .fa-truck{
+    margin-left: 40%;
+}
+.sub-delivery-1 h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.sub-delivery-1 span{
+    color: var(--primary-color);
+}
+.sub-delivery-1 p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.sub-delivery-1 button{
+   margin: 1rem 1rem; 
+}
+.sub-delivery-2 svg{
+    width: 108%;
+    height: 100%;
+}
+.delivery-img img{
+    position: absolute;
+    top: 80%;
+    width: 110%;
+    left: -10%;
+    height: 50vh;
+    opacity: 0.9;
+}
+.delivery-img-2 img{
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    width: 60%;
+    height: 40vh;
+}
+@media(min-width:776px){
+    .delivery{
+        margin: 2rem 0;
+    }
+    .delivery .grid{
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .sub-delivery-1{
+        margin-top: 12rem;
+    }
+    .sub-delivery-1 .fa-truck{
+        margin-left: 1%;
+    } 
+    .sub-delivery-1 h2{
+        text-align: left;
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    .sub-delivery-1 p{
+        text-align: left;
+        letter-spacing: 1px;
+    }
+    .delivery-img img{
+        position: absolute;
+        top: 40%;
+        width: 60%;
+        left: 40%;
+        height: 60vh;
+        opacity: 0.9;
+    }
+    .delivery-img-2 img{
+        position: absolute;
+        top: 45%;
+        left: 60%;
+        width: 30%;
+        height: 48vh;
+    }  
+}
+@media(max-width:450px){
+    .sub-delivery-1 button{
+        margin: 0.5rem 3rem; 
+     }
+     .delivery-img img{
+        position: absolute;
+        top: 84%;
+        width: 110%;
+        left: -10%;
+        height: 35vh;
+        opacity: 0.9;
+    }
+    .delivery-img-2 img{
+        position: absolute;
+        top: 85%;
+        left: 25%;
+        width: 60%;
+        height: 30vh;
+    }
+}
+/* section two */
+.delivery-text{
+    margin-top: 8rem;
+}
+.delivery-text h2{
+    font-size: 2rem;
+    text-align: center; 
+    margin: 1rem 0;
+}
+.delivery-text span{
+    color: var(--primary-color);
+}
+.delivery-text p{
+    text-align: center; 
+    letter-spacing: 1px;
+}
+@media(min-width:776px){
+    .delivery-text{
+        margin-top: 9rem;
+    }
+    .delivery-text p{
+        text-align: center; 
+        letter-spacing: 1px;
+        margin: 0 8rem;
+    }
+}
+.delivery-card {
+    margin-top: 2rem; 
+}
+.delivery-card .grid{
+grid-template-columns: 1fr;
+gap: 30px;
+}
+@media(min-width:776px){
+    .delivery-card {
+        margin-top: 5rem; 
+    }
+    .delivery-card .grid{
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
+        }
+}
