@@ -1,3 +1,6 @@
+.fleet{
+    margin-top: 5rem;
+}
 .fleet .grid{
     grid-template-columns: 1fr;
 }
@@ -26,7 +29,7 @@
 }
 .fleet-img img{
     position: absolute;
-    top: 65%;
+    top: 80%;
     width: 110%;
     left: -10%;
     height: 50vh;
@@ -37,7 +40,7 @@
 }
 .fleet-img-2 img{
     position: absolute;
-    top: 65%;
+    top: 85%;
     left: 10%;
     width: 80%;
     height: 45vh; 
@@ -64,7 +67,7 @@
 }
 .fleet-img img{
     position: absolute;
-    top: 35%;
+    top: 45%;
     width: 60%;
     left: 40%;
     height: 62vh;
@@ -90,13 +93,20 @@
 }
 .fleet-img img{
     position: absolute;
-    top: 65%;
+    top: 78%;
     width: 110%;
     left: -10%;
     letter-spacing: 1px;
     margin: 1rem 0;
     height: 35vh;
     opacity: 0.9;
+}
+.fleet-img-2 img{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    width: 80%;
+    height: 45vh; 
 }
 }
 /* section two */
