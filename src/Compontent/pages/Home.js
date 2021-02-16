@@ -54,6 +54,7 @@ export default function Home() {
                             repeatCount="indefinite" dur="4.6s"></animateTransform>
                             </circle>
                         </svg>
+
                         <div className="header-img">
                         <img src="/images/phone1.png" alt="MeME"/>
                         </div>

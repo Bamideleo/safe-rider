@@ -50,10 +50,10 @@ height: 70vh;
 @media(max-width:450px){
 .header-items img{
     position: absolute;
-    top: 68%;
-    left: 22%;
-    width: 55%;
-    height:35vh;
+        top: 70%;
+        left: 22%;
+        width: 55%;
+        height: 35vh;
 }
 .header-item-1 button{
     margin: 0 15%;
