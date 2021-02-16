@@ -63,7 +63,7 @@ export default function Rider() {
            {/* section three */}
            <div className="rider-card">
                <div className="container grid">
-                   <Zoom left delay={500} duration={2000}>
+                   <Zoom left delay={500} duration={1000}>
                    <div className="card ride-card">
                        <Carditem
                        src="./images/ride.jpg"
@@ -72,7 +72,7 @@ export default function Rider() {
                        />
                    </div>
                    </Zoom>
-                   <Zoom top delay={2000} duration={2000}>
+                   <Zoom top delay={2000} duration={1000}>
                    <div className="card ride-card">
                        <Carditem
                        src="./images/rider.png"
@@ -81,7 +81,7 @@ export default function Rider() {
                        />
                    </div>
                    </Zoom>
-                   <Zoom right delay={1500} duration={2000}>
+                   <Zoom right delay={1500} duration={1000}>
                    <div className="card ride-card">
                        <Carditem
                        src="./images/man12.jpg"

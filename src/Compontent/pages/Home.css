@@ -49,10 +49,14 @@ height: 70vh;
 }
 @media(max-width:450px){
 .header-items img{
-position: absolute;
-top: 65%;
-width: 70%;
-height: 40vh;
+    position: absolute;
+    top: 68%;
+    left: 22%;
+    width: 55%;
+    height:35vh;
+}
+.header-item-1 button{
+    margin: 0 15%;
 }
 }
 
@@ -82,7 +86,7 @@ letter-spacing: 1px;
 .header-item-022 span{
 color: var(--primary-color);
 }
-.trav{
+.header-item-022.trav{
 margin: 0 2rem; 
 }
 .fa-play-circle{
@@ -95,7 +99,7 @@ color: #000;
 .ima-1 img{
 width: 100%;
 height: 55vh;
-opacity: 0.3;
+opacity: 0.1;
 }
 .ima-2 img{
 position: absolute;
@@ -117,7 +121,7 @@ height: 50vh;
 }
 }
 @media(max-width:450px){
-.trav{
+.header-item-022 .trav{
     margin: 0 3rem; 
     }
 .fa-play-circle{
@@ -166,7 +170,7 @@ padding:4px;
 .ima img{
 width: 100%;
 height: 80vh;
-opacity: 0.3;
+opacity: 0.1;
 }
 .ima-3 img{
 position: absolute;
@@ -233,7 +237,7 @@ padding:4px;
 .sub-item img{
 width: 80%;
 height: 60vh;
-opacity: 0.3;
+opacity: 0.1;
 }
 .sub-item2 img{
 position: absolute;
@@ -301,6 +305,7 @@ height: 50vh;
 }
 
 @media(min-width:776px){
+  
     .sub-five img{
         width: 100%;
         height: 80vh;
@@ -308,7 +313,7 @@ height: 50vh;
         } 
         .sub-five2 img{
         position: absolute;
-        top: -10%;
+        top: 4%;
         left: 55%;
         width: 40%;
         height: 80vh; 

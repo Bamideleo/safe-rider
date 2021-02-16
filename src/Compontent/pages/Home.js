@@ -143,7 +143,7 @@ export default function Home() {
                     </div>
                     <div className="item-five">
                         <div className="sub-five">
-                        <img src="/images/bgd1.png" alt="MEME"/>
+                        <img src="./images/driv-1.png" alt="MEME"/>
                         </div>
                         <div className="sub-five2">
                         <img src="/images/loc.png" alt="MEME"/>
@@ -167,7 +167,7 @@ export default function Home() {
                 {/* section seven */}
                 <div className="card-items">
                     <div className="container grid">
-                        <Zoom left delay={500} duration={2000}>
+                        <Zoom left delay={500} duration={1000}>
                         <div className="card item-1">
                             <Carditem
                             src="/images/man11.jpg"
@@ -175,7 +175,7 @@ export default function Home() {
                             />
                         </div>
                         </Zoom>
-                        <Zoom left delay={1500} duration={2000}>
+                        <Zoom left delay={1500} duration={1000}>
                         <div className="card item-2">
                             <Carditem
                             src="/images/sa3.jpeg"
@@ -183,7 +183,7 @@ export default function Home() {
                             />
                         </div>
                         </Zoom>
-                        <Zoom right delay={2500} duration={2000}>
+                        <Zoom right delay={2500} duration={1000}>
                         <div className="card item-1">
                             <Carditem
                             src="/images/sa4.jpg"
@@ -191,7 +191,7 @@ export default function Home() {
                             />
                         </div>
                         </Zoom>
-                        <Zoom right delay={3500} duration={2000}>
+                        <Zoom right delay={3500} duration={1000}>
                         <div className="card item-2">
                             <Carditem
                             src="/images/sa5.jpg"

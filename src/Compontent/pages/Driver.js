@@ -22,7 +22,6 @@ export default function Driver() {
                      </div>
                </div>
                <div className="driver-item-2">
-               <Bounce left delay={500} duration={2000}>
                    <div className="card-2">
                         <div className="driv-sign">
                         <a href="#"><p>Sign Up</p></a>
@@ -53,7 +52,6 @@ export default function Driver() {
                          </form>
                      </div>
                    </div>
-                   </Bounce>
                </div>
            </div>
            </div>
@@ -71,7 +69,7 @@ export default function Driver() {
         {/* section three */}
         <div className="card-2-section">
         <div className="container grid">
-            <Zoom left delay={500} duration={2000}>
+            <Zoom left delay={500} duration={1000}>
             <div className="card driv">
                 <Carditem
                 src="./images/man13.jpeg"
@@ -80,7 +78,7 @@ export default function Driver() {
                 />
             </div>
             </Zoom>
-            <Zoom top delay={2000} duration={2000}>
+            <Zoom top delay={2000} duration={1000}>
             <div className="card driv">
                 <Carditem
                 src="./images/naira.jpg"
@@ -89,7 +87,7 @@ export default function Driver() {
                 />
             </div>
             </Zoom>
-            <Zoom right delay={1500} duration={2000}>
+            <Zoom right delay={1500} duration={1000}>
             <div className="card driv">
                 <Carditem
                 src="./images/sa1.jpg"

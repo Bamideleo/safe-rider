@@ -66,7 +66,7 @@ export default function Delivery() {
            {/* section three */}
            <div className="delivery-card">
                <div className="container grid">
-                   <Zoom left delay={500} duration={2000}>
+                   <Zoom left delay={500} duration={1000}>
                    <div className="card deliv">
                        <Carditem
                        src="./images/van.jpg"
@@ -76,7 +76,7 @@ export default function Delivery() {
                        />
                    </div>
                    </Zoom>
-                   <Zoom left delay={1500} duration={2000}>
+                   <Zoom left delay={1500} duration={1000}>
                    <div className="card deliv">
                        <Carditem
                        src="./images/box1.jpg"
@@ -85,7 +85,7 @@ export default function Delivery() {
                        />
                    </div>
                    </Zoom>
-                   <Zoom right delay={2500} duration={2000}>
+                   <Zoom right delay={2500} duration={1000}>
                    <div className="card deliv">
                        <Carditem
                        src="./images/tur.jpeg"
@@ -97,7 +97,7 @@ export default function Delivery() {
                        />
                    </div>
                    </Zoom>
-                   <Zoom right delay={3500} duration={2000}>
+                   <Zoom right delay={3500} duration={1000}>
                    <div className="card deliv">
                        <Carditem
                        src="./images/ins.jpg"

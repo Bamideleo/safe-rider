@@ -1,5 +1,5 @@
 import './App.css';
-import {Route} from 'react-router-dom'
+import {Route,Switch} from 'react-router-dom';
 import Navbar from './Compontent/Navbar';
 import Home from './Compontent/pages/Home';
 import Rider from './Compontent/pages/Rider';
@@ -16,6 +16,7 @@ function App() {
   return (
     <>
    <Navbar/>
+   <Switch>
    <Route exact path="/" component={Home}></Route>
    <Route exact path="/driver" component={Driver}></Route>
    <Route exact path="/rider" component={Rider}></Route>
@@ -24,6 +25,7 @@ function App() {
    <Route exact path="/cycling" component={Cycling}></Route>
    <Route exact path="/fleet" component={Fleet}></Route>
    <Route exact path="/business" component={Business}></Route>
+   </Switch>
     </>
   );
 }

@@ -59,7 +59,7 @@ a{
     position: absolute;
     top: -2%;
     right: 0%;
-    bottom: -18%;
+    bottom: -25%;
     left: -5%;
     opacity: 0.15;
     z-index: -1;
@@ -70,15 +70,29 @@ a{
 }
 .backg-five::before{
     content: "";
-    background-image: url('./images/im.png');
+    background-image: url('./images/sub.png');
     background-size: 110% 100%;
     position: absolute;
     top: -20%;
     right: 0%;
-    bottom: -5%;
+    bottom: -15%;
     left: -2%;
     z-index: -1;
-    opacity: 0.3;
+    opacity: 0.1;
+}
+@media(min-width:776px){
+.backg-five::before{
+    content: "";
+    background-image: url('./images/sub.png');
+    background-size: 110% 100%;
+    position: absolute;
+    top: -20%;
+    right: 0%;
+    bottom: -15%;
+    left: -2%;
+    z-index: -1;
+    opacity: 0.1;
+}    
 }
 .card{
     width: 100%;

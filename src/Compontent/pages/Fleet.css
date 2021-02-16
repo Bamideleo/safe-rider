@@ -86,7 +86,7 @@
 }
 @media(max-width:450px){
     .fleet-item button{
-        margin: 0 10%;
+        margin: 0 19%;
 }
 .fleet-img img{
     position: absolute;
@@ -130,7 +130,7 @@ margin: 2rem 2rem;
 .imag-1 img{
 width: 100%;
 height: 55vh;
-opacity: 0.3;
+opacity: 0.1;
 }
 .frames-fleet{
     position: relative;
@@ -179,7 +179,7 @@ opacity: 0.3;
     .imag-1 img{
         width: 100%;
         height: 45vh;
-        opacity: 0.3;
+        opacity: 0.1;
         }
 .imag img{
     position: absolute;
@@ -218,7 +218,7 @@ color:var(--primary-color) ;
 .pan img{
     width: 100%;
     height: 55vh;
-    opacity: 0.3;  
+    opacity: 0.1;  
 }
 .pan-1 img{
 position: absolute;
@@ -247,7 +247,7 @@ height: 35vh;
 .pan img{
     width: 100%;
     height: 55vh;
-    opacity: 0.3;  
+    opacity: 0.1;  
 }
 .pan-1 img{
 position: absolute;
@@ -261,7 +261,7 @@ height: 45vh;
 .pan img{
     width: 100%;
     height:45vh;
-    opacity: 0.3;  
+    opacity: 0.1;  
 }
 .pan-1 img{
 position: absolute;

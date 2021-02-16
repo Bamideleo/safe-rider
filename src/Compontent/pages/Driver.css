@@ -100,7 +100,7 @@ input[type="text"]{
 }
 @media(max-width:450px){
     .btn-driver{
-        margin: 0 2rem;
+        margin: 0 19%;
     }   
 }
 /* section two */
